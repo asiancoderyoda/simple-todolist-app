@@ -1,0 +1,41 @@
+form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20vh;
+}
+form input, form button{
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    background: white;
+}
+form button{
+    cursor: pointer;
+    color: #ff6f47;
+    background: #f7fffe;
+    transition: all 0.3s ease;
+}
+form button:hover{
+    background: #ff6f47;
+    color: #f7fffe;
+}
+.select{
+    margin-left: 1rem;
+}
+.filter-todo{
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    background: white;
+}
+
+@media screen and (max-width: 480px) {
+    form{
+        flex-direction: column;
+    }
+    .select{
+        margin-top: .5rem;
+        margin-left: 0;
+    }
+}

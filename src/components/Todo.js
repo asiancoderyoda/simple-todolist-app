@@ -16,6 +16,9 @@ const Todo = ({todo, todos, setTodos}) => {
             return item;
         }))
     }
+    
+    //This comment is for test
+    //This has nothing to do with the code
 
     return (
         <div>
